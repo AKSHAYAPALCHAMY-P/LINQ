@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="LINQ/LINQ.csproj" />
+  <Project Path="LinqToObjects/LinqToObjects.csproj" Id="64e8fa5b-bced-4cb9-b59c-9df49b9d7b71" />
+  <Project Path="LinqUtils/LinqUtils.csproj" Id="54d07b1d-f2d3-4336-95b6-f977a9d0ba62" />
 </Solution>
