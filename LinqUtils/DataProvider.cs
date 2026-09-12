@@ -38,7 +38,77 @@ public static class DataProvider
             new Employee(27, "Aaron Baker", "aaron.baker@company.com", new DateOnly(2016, 4, 2), Team.DataEngineering),
             new Employee(28, "Bella Adams", "bella.adams@company.com", new DateOnly(2019, 2, 14), Team.Security),
             new Employee(29, "Carter Nelson", "carter.nelson@company.com", new DateOnly(2017, 6, 30), Team.Support),
-            new Employee(30, "Daisy Carter", "daisy.carter@company.com", new DateOnly(2023, 8, 1), Team.ResearchAndDevelopment)
+            new Employee(30, "Daisy Carter", "daisy.carter@company.com", new DateOnly(2023, 8, 1), Team.ResearchAndDevelopment),
+
+            new Manager(
+                    31,
+                    "Michael Brown",
+                     "michael.brown@company.com",
+                    new DateOnly(2020, 6, 15),
+                    Team.Development
+                    ),
+
+            new Manager(
+                        32,
+                         "Sophia Wilson",
+                         "sophia.wilson@company.com",
+                            new DateOnly(2019, 4, 22),
+                        Team.DevOps
+                        ),
+
+            new SecurityEngineer(
+    33,
+    "Daniel Miller",
+    "daniel.miller@company.com",
+    new DateOnly(2021, 8, 10),
+    Team.Security,
+    SecurityTeam.BlueTeam
+),
+
+new SecurityEngineer(
+    34,
+    "Emma Davis",
+    "emma.davis@company.com",
+    new DateOnly(2022, 3, 18),
+    Team.Security,
+    SecurityTeam.RedTeam
+),
+
+new SecurityEngineer(
+    35,
+    "James Wilson",
+    "james.wilson@company.com",
+    new DateOnly(2020, 11, 5),
+    Team.Security,
+    SecurityTeam.SOC
+),
+
+new SecurityEngineer(
+    36,
+    "Olivia Taylor",
+    "olivia.taylor@company.com",
+    new DateOnly(2023, 1, 20),
+    Team.Security,
+    SecurityTeam.IncidentResponse
+),
+
+new SecurityEngineer(
+    37,
+    "Noah Anderson",
+    "noah.anderson@company.com",
+    new DateOnly(2019, 9, 12),
+    Team.Security,
+    SecurityTeam.ThreatHunting
+),
+
+new SecurityEngineer(
+    38,
+    "Ava Thomas",
+    "ava.thomas@company.com",
+    new DateOnly(2021, 6, 25),
+    Team.Security,
+    SecurityTeam.GovernanceRiskCompilance
+)
         };
     }
 }

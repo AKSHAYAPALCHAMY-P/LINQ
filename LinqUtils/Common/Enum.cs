@@ -13,4 +13,16 @@
         Support = 8,
         ResearchAndDevelopment = 9
     }
+
+    public enum SecurityTeam
+    {
+        None = 0,
+        BlueTeam = 1,
+        RedTeam =2,
+        PurpleTeam = 3,
+        SOC = 4,
+        IncidentResponse = 5,
+        ThreatHunting = 6,
+        GovernanceRiskCompilance = 7
+    }
 }

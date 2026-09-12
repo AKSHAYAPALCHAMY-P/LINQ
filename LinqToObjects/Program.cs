@@ -4,7 +4,12 @@
     {
         public static void Main(string[] args)
         {
-            Filters.LinqWhere();
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            //Filters.LinqWhere();
+            //Filters.LinqOfType();
+            //ProjectionOperations.SelectOperator();
+            //ProjectionOperations.SelectManyOperator();
+            ProjectionOperations.ZipOperator();
         }
     }
 }

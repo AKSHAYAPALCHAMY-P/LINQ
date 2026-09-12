@@ -34,5 +34,26 @@ namespace LinqToObjects
                 Console.WriteLine($"Name:{employee.Name}, Team:{employee.Team};");
             }
         }
+
+        public static void LinqOfType()
+        {
+            var Managers = Employees.OfType<Manager>();
+
+            Console.WriteLine("-------------------Manager List----------------------");
+
+            foreach(var employee in Managers)
+            {
+                Console.WriteLine($"Name:{employee.Name}, Team:{employee.Team}");
+            }
+
+            var securityEngineer = Employees.OfType<SecurityEngineer>();
+
+            Console.WriteLine("-------------------Manager List----------------------");
+
+            foreach (var Security in securityEngineer)
+            {
+                Console.WriteLine($"Name:{Security.Name}, Team:{Security.Team}");
+            }
+        }
     }
 }
