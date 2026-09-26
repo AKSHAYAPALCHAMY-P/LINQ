@@ -3,6 +3,11 @@ using LinqUtils.Models;
 
 public static class DataProvider
 {
+    public static List<int> Numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 , 10,11,9,12,13,14,15,10};
+
+    public static string[] Box1 = ["Notebook", "Pen", "map", "Backpack"];
+    public static string[] Box2 = ["Bat", "Ball", "Pen", "Stumps"];
+
     public static List<Employee> GetEmployees()
     {
         return new List<Employee>

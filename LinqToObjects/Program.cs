@@ -9,7 +9,9 @@
             //Filters.LinqOfType();
             //ProjectionOperations.SelectOperator();
             //ProjectionOperations.SelectManyOperator();
-            ProjectionOperations.ZipOperator();
+            //ProjectionOperations.ZipOperator();
+            //SetOperations.DistinctOperator();
+            SetOperations.DistinctByOperator();
         }
     }
 }
